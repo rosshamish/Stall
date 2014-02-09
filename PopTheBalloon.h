@@ -17,7 +17,6 @@
 @property (nonatomic, assign) double startTime;
 @property (nonatomic, assign) bool doneGame;
 
-
 - (void) inflate;
 - (void) recordHighscore:(int)score;
 - (void) endGame;

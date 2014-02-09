@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86605B2218A7EF6800784277 /* CCUIViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 86605B2118A7EF6700784277 /* CCUIViewWrapper.m */; };
 		86FC44D518A74C69005E51AE /* PopTheBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FC44D418A74C69005E51AE /* PopTheBalloon.m */; };
 		86FC44D918A786F4005E51AE /* FishCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FC44D818A786F4005E51AE /* FishCatcher.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86605B2018A7EF6700784277 /* CCUIViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUIViewWrapper.h; sourceTree = "<group>"; };
+		86605B2118A7EF6700784277 /* CCUIViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUIViewWrapper.m; sourceTree = "<group>"; };
 		86FC44D318A74C69005E51AE /* PopTheBalloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTheBalloon.h; sourceTree = "<group>"; };
 		86FC44D418A74C69005E51AE /* PopTheBalloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTheBalloon.m; sourceTree = "<group>"; };
 		86FC44D718A786F4005E51AE /* FishCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishCatcher.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MenuScene.h */,
 				B7378993180767190076A88C /* MenuScene.m */,
+				86605B2018A7EF6700784277 /* CCUIViewWrapper.h */,
+				86605B2118A7EF6700784277 /* CCUIViewWrapper.m */,
 				86FC44D318A74C69005E51AE /* PopTheBalloon.h */,
 				86FC44D418A74C69005E51AE /* PopTheBalloon.m */,
 				86FC44D718A786F4005E51AE /* FishCatcher.h */,
@@ -330,6 +335,7 @@
 			files = (
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				86FC44D518A74C69005E51AE /* PopTheBalloon.m in Sources */,
+				86605B2218A7EF6800784277 /* CCUIViewWrapper.m in Sources */,
 				86FC44D918A786F4005E51AE /* FishCatcher.m in Sources */,
 				B7378994180767190076A88C /* MenuScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,

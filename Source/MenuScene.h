@@ -7,8 +7,19 @@
 //
 
 #import "CCNode.h"
+#import "CCUIViewWrapper.h"
 
-@interface MenuScene : CCNode
+@interface MenuScene : CCNode <AVCaptureMetadataOutputObjectsDelegate>
+
+@property (nonatomic) BOOL isReading;
+
+@property (nonatomic, strong) AVCaptureSession *_captureSession;
+@property (nonatomic, strong) AVCaptureVideoPreviewLayer *_videoPreviewLayer;
+
+@property (retain, nonatomic) UIView *viewPreview;
+@property (retain, nonatomic) CCUIViewWrapper *viewPreviewWrap;
+
+- (BOOL) startReading;
 
 - (void) scan;
 - (void) launchGameWithName:(NSString *)gameName;

@@ -16,7 +16,7 @@
 @synthesize doneGame;
 
 - (void) update:(CCTime)delta {
-    CCLOG(@"%f", [_balloon scaleX]);
+    // CCLOG(@"%f", [_balloon scaleX]);
 }
 
 - (void) recordHighscore:(int)score {
@@ -35,7 +35,7 @@
 - (void) displayScore {
     int iScore = ( 100 - (CFAbsoluteTimeGetCurrent() - startTime) * 10);
     NSString *scoreString = [NSString stringWithFormat:@"Score: %d", iScore];
-    CCLabelTTF *score = [CCLabelTTF labelWithString:scoreString fontName:@"Palatino Roman" fontSize:64];
+    CCLabelTTF *score = [CCLabelTTF labelWithString:scoreString fontName:@"Palatino-Roman" fontSize:64];
     CGSize winSize = [[CCDirector sharedDirector] viewSize];
     CGPoint pos = CGPointMake(winSize.width/2, winSize.height/5);
     [score setPosition:pos];
@@ -67,7 +67,7 @@
         [_balloon runAction:deflate];
         
         // Create the "popped!" label
-        CCLabelTTF *doneNotification = [CCLabelTTF labelWithString:@"Popped!" fontName:@"Palatino Roman" fontSize:40];
+        CCLabelTTF *doneNotification = [CCLabelTTF labelWithString:@"Popped!" fontName:@"Palatino-Roman" fontSize:40];
         CGSize winSize = [[CCDirector sharedDirector] viewSize];
         CGPoint pos = CGPointMake(winSize.width/2, winSize.height/2);
         [doneNotification setPosition:pos];
