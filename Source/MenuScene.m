@@ -8,7 +8,7 @@
 
 #import "MenuScene.h"
 
-bool debug = TRUE;
+bool debug = NO;
 
 @implementation MenuScene {
     CCSprite *_qrSprite;
@@ -23,7 +23,6 @@ bool debug = TRUE;
     NSArray *gameNames = [NSArray arrayWithObjects:
                           @"PopTheBalloon",
                           @"FishCatcher",
-                          @"NotTheBees",
                           nil];
     uint32_t rnd = arc4random_uniform([gameNames count]);
     NSString *pickedGame = [gameNames objectAtIndex:rnd];

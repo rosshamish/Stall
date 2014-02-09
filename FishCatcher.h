@@ -13,5 +13,6 @@
 @property (nonatomic, assign) CCNode *_physicsNode;
 @property (nonatomic, assign) bool doneGame;
 @property (nonatomic, assign) bool initialized;
+@property (nonatomic, retain) NSMutableArray *fishes;
 
 @end

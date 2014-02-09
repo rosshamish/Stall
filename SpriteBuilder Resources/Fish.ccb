@@ -57,16 +57,16 @@
 					<real>0.0</real>
 				</array>
 				<array>
-					<real>105.49609375</real>
-					<real>2</real>
+					<real>0.0</real>
+					<real>64</real>
 				</array>
 				<array>
-					<real>110.49609375</real>
-					<real>67</real>
+					<real>109</real>
+					<real>64</real>
 				</array>
 				<array>
-					<real>6.49609375</real>
-					<real>61</real>
+					<real>109</real>
+					<real>0.0</real>
 				</array>
 			</array>
 		</dict>
@@ -101,8 +101,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>

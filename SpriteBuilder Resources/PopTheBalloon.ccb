@@ -208,7 +208,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>Yellow_Balloon.PNG</string>
+							<string>yellowballoon.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -678,6 +678,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
